@@ -12,6 +12,9 @@ def get_bitwiseAND(l):
     b = l[0]
     # print(len(l))
     for i in range(1, len(l)):
+        if b == 0:
+            return 0
+            continue
         # print(b, l[i])
         b = b & l[i]
         # print(b)
