@@ -46,7 +46,7 @@ for t in range(int(input())):  #
         # print("this list is based")
         # print(based)
         based = based[1:]
-        # print(based)
+        print(based)
 
         sol = 0
 
@@ -60,7 +60,7 @@ for t in range(int(input())):  #
             #         sol = len(c)
             #         pass
 
-            low = 0
+            low = 0 
             high = len(cringes)
             mid = 0
             while low < high:
